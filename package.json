@@ -1,19 +1,20 @@
 {
   "name": "@comanage/isocountrydata",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Automatically generated ISO country data",
-  "main": "dist/index.ts",
   "repository": "https://github.com/disruptivelabs/isocountrydata",
   "author": "Franklyn Tackitt <franklyn@tackitt.net>",
   "license": "MIT",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "generate": "ts-node scripts/generate.ts",
     "tsc": "tsc --project src",
     "build": "yarn run generate && yarn run tsc"
   },
   "devDependencies": {
-    "@types/node": "^13.7.1",
-    "ts-node": "^8.6.2",
-    "typescript": "^3.7.5"
+    "@types/node": "^18.13.0",
+    "ts-node": "latest",
+    "typescript": "latest"
   }
 }

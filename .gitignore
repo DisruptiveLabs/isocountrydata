@@ -106,8 +106,4 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-# Generated Files
-src/subdivisions/*
-src/*.json
-
 *.iml
